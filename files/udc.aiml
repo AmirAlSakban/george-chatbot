@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <!-- Default Response -->
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Bonjour! Voulez-vous parler de:   (1) Planification de carrière,   (2) Recherche d'emploi, ou    (3) Développement de compétences ?
+        </template>
+    </category>
+
+    <!-- Planification de carrière -->
+    <category>
+        <pattern>1</pattern>
+        <template>
+            Quel aspect de la planification de carrière vous intéresse : (A) Choix de carrière, (B) Progression de carrière, ou (C) Changement de carrière ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>A</pattern>
+        <template>
+            Pour explorer les choix de carrière, considérez : (i) Vos passions, (ii) Vos compétences, (iii) Le marché du travail. Lequel voulez-vous explorer ?
+        </template>
+    </category>
+
+    <!-- Identification des compétences -->
+    <category>
+        <pattern>ii</pattern>
+        <template>
+            Pour identifier vos compétences, pensez à ce que vous aimez faire et à ce que vous faites bien. Voulez-vous des exemples de compétences ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Oui</pattern>
+        <template>
+            Exemples de compétences : communication, analyse de données, créativité. Cela vous aide-t-il ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Apres</pattern>
+        <template>
+            Après l'identification, regardez les carrières qui utilisent ces compétences. Voulez-vous des suggestions basées sur des compétences spécifiques ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Passons a la progression de carrière</pattern>
+        <template>
+            Pour progresser, considérez : (1) Formation continue, (2) Networking, (3) Demander des feedbacks. Lequel vous intéresse ?
+        </template>
+    </category>
+
+    <!-- Networking -->
+    <category>
+        <pattern>2</pattern>
+        <template>
+            Le networking peut inclure : assister à des événements professionnels, rejoindre des groupes, utiliser LinkedIn. Besoin de conseils sur l'un de ces aspects ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Comment utiliser LinkedIn</pattern>
+        <template>
+            Sur LinkedIn : optimisez votre profil, rejoignez des groupes pertinents, interagissez avec du contenu. Voulez-vous des astuces de profil ?
+        </template>
+    </category>
+
+    <!-- Changement de carrière -->
+    <category>
+        <pattern>Non parlons de Changement de carrière</pattern>
+        <template>
+            Pour changer de carrière, identifiez : (3) Vos compétences transférables, (4) Les secteurs qui vous intéressent, (5) Les besoins de formation. Quel est votre focus ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>3</pattern>
+        <template>
+            Les compétences transférables incluent : communication, organisation, leadership. Voyez-vous des compétences que vous pouvez transférer ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Oui lorganisation</pattern>
+        <template>
+            Excellent! L'organisation est importante dans de nombreux domaines. Voulez-vous explorer des carrières où cela est crucial ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Oui sil vous plaît</pattern>
+        <template>
+            Des carrières qui valorisent l'organisation : gestion de projet, administration, logistique. Cela vous intéresse-t-il ?
+        </template>
+    </category>
+    
+     <!-- Recherche d'emploi -->
+    <category>
+        <pattern>Non merci parle moi des opportunites</pattern>
+        <template>
+            Pour les opportunites d'emploi, utilisez : (6) Sites d'emploi, (7) Réseaux, (8) Candidatures spontanées. Que préférez-vous explorer ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>6</pattern>
+        <template>
+            Sur les sites d'emploi, créez un profil, utilisez des mots-clés pertinents, postulez régulièrement. Besoin d'aide pour créer un profil efficace ?
+        </template>
+    </category>
+    
+    <!-- Développement de compétences -->
+    <category>
+        <pattern>Non merci parlons Développement de compétences</pattern>
+        <template>
+            Développez vos compétences par : (B) Formation en ligne, (C) Ateliers, (D) Projets personnels. Quel mode préférez-vous ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>B</pattern>
+        <template>
+            Les formations en ligne offrent flexibilité et variété. Des sujets spécifiques vous intéressent-ils ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Pas sûr des idées</pattern>
+        <template>
+            Idées de formations en ligne : codage, marketing numérique, gestion de projet. Cela correspond-il à vos intérêts ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Oui codage</pattern>
+        <template>
+            Le codage est un excellent choix. Langages populaires : Python, JavaScript. Voulez-vous des recommandations de cours ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>Non je vais me debrouiller</pattern>
+        <template>
+            Merci pour tout
+        </template>
+    </category>
+
+</aiml>
+
+
+
